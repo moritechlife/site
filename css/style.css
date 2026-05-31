@@ -410,3 +410,74 @@ a.card:hover {
     background:#2f5d50;
     color:#fff;
 }
+
+/* =========================
+スマホ対応
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .expression-section {
+        display: block;
+        padding: 0 8%;
+        margin-bottom: 80px;
+    }
+
+    .section-info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-info h2 {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    .section-info p {
+        font-size: 1rem;
+        line-height: 2;
+    }
+
+   .card-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+    .video-card iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card-text p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+    .expression-title{
+        font-size:3rem;
+    }
+
+    .expression-copy{
+        font-size:1rem;
+    }
+    .sub-header .logo{
+        font-size:1.5rem;
+    }
+
+    .sub-header .nav a{
+        font-size:1.2rem;
+    }
+    .expression{
+    height:300px;
+}
+}
