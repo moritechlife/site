@@ -417,15 +417,36 @@ a.card:hover {
 
 @media screen and (max-width: 768px) {
 
+    .expression {
+        height: 300px;
+    }
+
+    .expression-title {
+        font-size: 3rem;
+    }
+
+    .expression-copy {
+        font-size: 1rem;
+    }
+
+    .sub-header .logo {
+        font-size: 1.5rem;
+    }
+
+    .sub-header .nav a {
+        font-size: 1.2rem;
+    }
+
     .expression-section {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         padding: 0 8%;
         margin-bottom: 80px;
     }
 
     .section-info {
         width: 100%;
-        margin-bottom: 30px;
     }
 
     .section-info h2 {
@@ -438,16 +459,16 @@ a.card:hover {
         line-height: 2;
     }
 
-   .card-area {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+    .card-area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
-.card {
-    width: 100%;
-}
+    .card {
+        width: 100%;
+    }
 
     .video-card iframe {
         width: 100%;
@@ -463,21 +484,4 @@ a.card:hover {
         font-size: 1rem;
         line-height: 1.8;
     }
-    .expression-title{
-        font-size:3rem;
-    }
-
-    .expression-copy{
-        font-size:1rem;
-    }
-    .sub-header .logo{
-        font-size:1.5rem;
-    }
-
-    .sub-header .nav a{
-        font-size:1.2rem;
-    }
-    .expression{
-    height:300px;
-}
 }
