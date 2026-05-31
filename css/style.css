@@ -272,109 +272,7 @@ body{
 }
 
 
-/*------------------------------------------------------*/
-
-.sub-header .logo{
-    font-size: 1.2rem;
-}
-
-.sub-header .nav a{
-    font-size: 1.2rem;
-}
-
-.expression {
-    height: 420px;
-    background-image: url("../images/gallery-main4.png");
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 100px;
-
-    position: relative;
-
-}
-
-.expression-content{
-    position: absolute;
-
-    top: 30%;
-    left: 10%;
-
-    color: #fff;
-}
-
-.expression-title{
-    font-size: 5.0rem;
-    margin-bottom: 5px;
-}
-
-.expression-copy{
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-}
-
-
-
-.expression-section{
-    display:flex;
-    gap:80px;
-    margin-bottom:120px;
-    padding: 0 10%;
-}
-
-.section-info{
-    width:25%;
-}
-
-.section-info h2{
-    font-size:5rem;
-    color:#2f5d50;
-    margin-bottom:30px;
-}
-
-.section-info p{
-    line-height:2;
-}
-
-.card-area{
-    width:75%;
-    display:flex;
-    gap:40px;
-}
-
-.card{
-    width:50%;
-    text-decoration:none;
-    color:#333;
-}
-
-.card img{
-    width:100%;
-    display:block;
-}
-
-.card-text{
-    margin-top:10px;
-}
-
-.card-text p{
-    margin-bottom:5px;
-}
-
-a.card {
-    transition: 0.3s;
-}
-
-a.card:hover {
-    opacity: 0.8;
-}
-
-.video-card iframe{
-    width:100%;
-    aspect-ratio:16/9;
-    height:auto;
-    border:none;
-}
-/*---------------------------------*/
+/*----------------------*/
 
 .coming-soon{
     min-height:100vh;
@@ -411,7 +309,122 @@ a.card:hover {
     color:#fff;
 }
 
-/* =========================
+
+
+/*expression.html*/
+
+/*------------------------------------------------------*/
+
+.sub-header .logo{
+    font-size: 1.2rem;
+}
+
+.sub-header .nav a{
+    font-size: 1.2rem;
+}
+
+
+.expression {
+    height: 70vh;
+    background-image: url("../images/gallery-main4.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+
+    position: relative;
+
+}
+
+.expression-content{
+    position: absolute;
+
+    top: 28%;
+    left: 10%;
+
+    color: #fff;
+}
+
+.expression-title {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.expression-copy{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.expression-section{
+    display:flex;
+    gap:60px;
+    margin-bottom:120px;
+    padding: 0 8%;
+}
+
+.section-info{
+    width:280px;
+    flex-shrink:0;
+}
+
+.card-area{
+    flex:1;
+    display:flex;
+    gap:40px;
+}
+
+
+.section-info h2{
+    font-size:5rem;
+    color:#2f5d50;
+    margin-bottom:30px;
+}
+
+.section-info p{
+    line-height:2;
+}
+
+
+.card{
+    width:50%;
+    text-decoration:none;
+    color:#333;
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.card-text{
+    margin-top:10px;
+}
+
+.card-text p{
+    margin-bottom:5px;
+}
+
+a.card {
+    transition: 0.3s;
+}
+
+a.card:hover {
+    opacity: 0.8;
+}
+
+.video-card iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    height:auto;
+    border:none;
+}
+/*---------------------------------*/
+
+
+
+
+    
+
+
+    /* =========================
 スマホ対応
 ========================= */
 
@@ -506,7 +519,7 @@ a.card:hover {
         font-size:0.8rem;
     }
 
-}
+
 
 /*expression.html*/
 
@@ -585,3 +598,4 @@ a.card:hover {
         font-size: 1rem;
         line-height: 1.8;
     }
+}
